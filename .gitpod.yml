@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: python3 -m venv env && pip install -e ".[dev]"
+    command: . env/bin/activate
